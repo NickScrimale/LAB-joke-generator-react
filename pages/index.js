@@ -1,3 +1,5 @@
+import Jokes from '../components/Jokes';
+
 function Home() {
   return (
     <div
@@ -10,6 +12,7 @@ function Home() {
       }}
     >
       <h1>Welcome Home!</h1>
+      <Jokes />
     </div>
   );
 }
